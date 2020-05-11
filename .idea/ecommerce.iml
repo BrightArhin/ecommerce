@@ -18,5 +18,6 @@
     <orderEntry type="library" name="@types/redux-api-middleware" level="application" />
     <orderEntry type="library" name="@types/redux-devtools" level="application" />
     <orderEntry type="library" name="@types/redux-localstorage" level="application" />
+    <orderEntry type="library" name="@types/styled-components" level="application" />
   </component>
 </module>
