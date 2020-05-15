@@ -5,13 +5,11 @@ import {connect} from 'react-redux'
 import {selectCollectionById} from "../../redux/shop/shop.selectors"
 
 const CollectionPage = ({collection})=>{
-    // try {
-    //     if(!collection){
-    //         return new Error()
-    //     }
-    // }catch (e) {
-    //     console.log(e.message)
-    // }
+
+        if(!collection){
+            return new Error()
+        }
+
     const {title, items} = collection
 
     return(
